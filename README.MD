@@ -4,8 +4,6 @@ This repo contains unfinished work on trying to analyze the PAM files used in Pv
 
 ### Disclaimer
 
-Currently in development.
-
 The application is unstable and may not work as expected.
 
 For educational purposes only.
