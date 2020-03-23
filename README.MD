@@ -4,13 +4,14 @@ This repo contains unfinished work on trying to analyze the PAM files used in Pv
 
 ### Disclaimer
 
-Currently in development.
 The application is unstable and may not work as expected.
+
 For educational purposes only.
 
 ### Build
 
 Visual Studio 2019 is the current IDE used to work on this repo
+
 The [release page](https://github.com/ktt45678/PopAnimLib/releases) is also available.
 
 ### Usage
