@@ -169,7 +169,7 @@ namespace Helper
                                     if (allowedTransTypes.Contains(transType))
                                     {
                                         //Copy it
-                                        sats[i, iRefNum] = sats[sats[i, iRefNum].RefIndex, iRef];
+                                        //sats[i, iRefNum] = sats[sats[i, iRefNum].RefIndex, iRef];
                                         //
                                         subAnimNum[k] = iRefNum;
                                         //
