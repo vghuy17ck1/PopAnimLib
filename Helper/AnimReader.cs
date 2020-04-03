@@ -44,10 +44,10 @@ namespace Helper
                         //Height - Int16
                         short height = reader.ReadInt16();
                         //Linear transformations - Int32 (divided by 65536)
-                        int x1 = reader.ReadInt32() / 65536;
-                        int y1 = reader.ReadInt32() / 65536;
-                        int x2 = reader.ReadInt32() / 65536;
-                        int y2 = reader.ReadInt32() / 65536;
+                        double x1 = (double)reader.ReadInt32() / 65536;
+                        double y1 = (double)reader.ReadInt32() / 65536;
+                        double x2 = (double)reader.ReadInt32() / 65536;
+                        double y2 = (double)reader.ReadInt32() / 65536;
                         //Left - Int16
                         short left = reader.ReadInt16();
                         //Top - Int16
@@ -220,10 +220,10 @@ namespace Helper
                                         sats[i, iRefNum].Transform.Type = key;
                                         sats[i, iRefNum].Transform.Matrix = new Matrix
                                         {
-                                            X1 = reader.ReadInt32() / 65536,
-                                            Y1 = reader.ReadInt32() / 65536,
-                                            X2 = reader.ReadInt32() / 65536,
-                                            Y2 = reader.ReadInt32() / 65536
+                                            X1 = (double)reader.ReadInt32() / 65536,
+                                            Y1 = (double)reader.ReadInt32() / 65536,
+                                            X2 = (double)reader.ReadInt32() / 65536,
+                                            Y2 = (double)reader.ReadInt32() / 65536
                                         };
                                         sats[i, iRefNum].Transform.Point = new Point
                                         {
@@ -250,10 +250,10 @@ namespace Helper
                                         sats[i, iRefNum].Transform.Type = key;
                                         sats[i, iRefNum].Transform.Matrix = new Matrix
                                         {
-                                            X1 = reader.ReadInt32() / 65536,
-                                            Y1 = reader.ReadInt32() / 65536,
-                                            X2 = reader.ReadInt32() / 65536,
-                                            Y2 = reader.ReadInt32() / 65536
+                                            X1 = (double)reader.ReadInt32() / 65536,
+                                            Y1 = (double)reader.ReadInt32() / 65536,
+                                            X2 = (double)reader.ReadInt32() / 65536,
+                                            Y2 = (double)reader.ReadInt32() / 65536
                                         };
                                         sats[i, iRefNum].Transform.Point = new Point
                                         {

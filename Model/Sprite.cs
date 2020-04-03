@@ -19,13 +19,13 @@ namespace Model
         [JsonProperty(PropertyName = "height")]
         public short Height { get; set; }
         [JsonProperty(PropertyName = "x1")]
-        public int X1 { get; set; }
+        public double X1 { get; set; }
         [JsonProperty(PropertyName = "y1")]
-        public int Y1 { get; set; }
+        public double Y1 { get; set; }
         [JsonProperty(PropertyName = "x2")]
-        public int X2 { get; set; }
+        public double X2 { get; set; }
         [JsonProperty(PropertyName = "y2")]
-        public int Y2 { get; set; }
+        public double Y2 { get; set; }
         [JsonProperty(PropertyName = "left")]
         public short Left { get; set; }
         [JsonProperty(PropertyName = "top")]
